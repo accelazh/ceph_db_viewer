@@ -27,10 +27,10 @@ http://<host>:8081/mon_db/detail?object_key_hex=617574680031&mon_name_hex=636c75
 
 The <host> should have ceph monitor running.
 
-Hints
+Notes
 ---
 
-Currently all key-value pairs are loaded to web page at once. On overview page, value is truncated by still too much.
+Currently all key-value pairs are loaded to web page at once. On overview page, value is truncated by still too many.
 
-Leveldb cannot be read while ceph is using it. So I copy ceph monitor's leveldb to /tmp and read it.
+Leveldb cannot be read while ceph is using it. So I copy ceph monitor's leveldb to /tmp and read it, every time. This is crappy.
 
