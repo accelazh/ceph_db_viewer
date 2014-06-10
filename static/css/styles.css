@@ -1,0 +1,26 @@
+.object-overview .object-key {
+    background-color: #d9edf7;
+    padding: 4px 2px 4px 2px;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
+
+.object-overview tr td:first-child{
+    background-color: #eee;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.mon-name {
+    font-size: large;
+    font-weight: bold;
+    padding-top: 10px;
+    border-bottom: solid 1px #aaa;
+    margin-bottom: 10px;
+}
+
+td {
+    padding: 2px;
+}
