@@ -9,7 +9,7 @@ How to Use
 Download repo and set up django web server.
 
 ```
-git clone https://github.com/AIcarus/ceph_db_viewer.git
+git clone https://github.com/accelazh/ceph_db_viewer.git
 cd ceph_de_viewer
 ./manage.py runserver 0.0.0.0:8081
 
